@@ -1,19 +1,19 @@
-package pk_Rectangle
+package pkRectangle
 
 import (
 	"fmt"
 
-	pk_shape "github.com/forward0606/hello_go2/src/pk_shape"
+	pkShape "github.com/forward0606/hello_go2/pkShape"
 )
 
 type Rectangle struct {
-	pk_shape.Shape
+	pkShape.Shape
 	height int
 	width  int
 }
 
-func New_Rectangle(col string, hei int, wid int) Rectangle {
-	s := pk_shape.New_Shape(col)
+func NewRectangle(col string, hei int, wid int) Rectangle {
+	s := pkShape.NewShape(col)
 	return Rectangle{Shape: s, height: hei, width: wid}
 }
 

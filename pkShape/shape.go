@@ -1,4 +1,4 @@
-package pk_shape
+package pkShape
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ type Shape struct {
 	color string
 }
 
-func New_Shape(col string) Shape {
+func NewShape(col string) Shape {
 	return Shape{color: col}
 }
 
